@@ -10,7 +10,7 @@ function createImagesCardsMarkup(galleryItems) {
     return galleryItems.map(({ preview, original, description }) => {
         return `
             <div class="gallery__item">
-                <a class="gallery__link href = ${original} onclick="evt.preventDefault()" >
+                <a class="gallery__link href = '${original}' onclick="evt.preventDefault()" >
                     <img
                         class="gallery__image"
                         src= "${preview}"
