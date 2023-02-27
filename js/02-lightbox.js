@@ -22,7 +22,11 @@ function createImagesCardsMarkup(galleryItems) {
 
 gallery.insertAdjacentHTML('beforeend', imageMarkup);
 
-new SimpleLightbox(".gallery a",); 
+
+new SimpleLightbox('.gallery a', {
+  captionPosition: 'top',
+  captionsData: 'alt',
+});
 
 
 
