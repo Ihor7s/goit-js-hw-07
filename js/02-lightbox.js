@@ -24,9 +24,8 @@ gallery.insertAdjacentHTML('beforeend', imageMarkup);
 
 
 new SimpleLightbox('.gallery a', {
-  captionPosition: 'top',
+  captionPosition: 'bottom',
   captionsData: 'alt',
+captionDelay: '250',
 });
-
-
 
